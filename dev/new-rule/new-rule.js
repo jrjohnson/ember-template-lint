@@ -42,7 +42,7 @@ fs.appendFileSync(pathDocList, docListAppend);
 // Feature: inserts new rule information into the rule list for immediate use
 function insertNewRuleIntoList(newRuleName, pathRuleListOrg) {
   let ruleListInsert = "\n  '" + newRuleName + "': require('./" + newRuleName + "'),";
-  let ruleListPattern = /\n\}\;/;
+  let ruleListPattern = /\n\};/;
   let orgContent = fs.readFileSync(pathRuleListOrg, { encoding: 'utf8' });
   let matches = orgContent.match(ruleListPattern);
   if (matches) {
