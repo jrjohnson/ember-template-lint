@@ -19,8 +19,9 @@
     "changelog": "lerna-changelog",
     "lint": "yarn lint:js",
     "lint:js": "eslint . --cache",
+    "new": "node dev/new-rule/new-rule.js",
     "release": "release-it",
-    "test": "jest"
+    "test": "jest"    
   },
   "dependencies": {
     "@glimmer/syntax": "^0.47.0",
