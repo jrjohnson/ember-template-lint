@@ -70,7 +70,7 @@
     "coveragePathIgnorePatterns": [
       "<rootDir>/node_modules/",
       "<rootDir>/test/",
-      "<rootDir>/dev/**"
+      "<rootDir>/dev/new-rules/**"
     ],
     "testMatch": [
       "<rootDir>/test/**/*-test.js"
