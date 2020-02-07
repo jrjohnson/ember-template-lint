@@ -69,7 +69,8 @@
   "jest": {
     "coveragePathIgnorePatterns": [
       "<rootDir>/node_modules/",
-      "<rootDir>/test/"
+      "<rootDir>/test/",
+      "<rootDir>/dev/**"
     ],
     "testMatch": [
       "<rootDir>/test/**/*-test.js"
